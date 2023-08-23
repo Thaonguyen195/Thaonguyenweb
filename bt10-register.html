@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+    </head>
+    <body>
+        <h2 align="center" >BÀI KIỂM TRA CHƯƠNG 2</h2>
+    <p align="center"><b>Môn học: </b><i>Ứng dụng web</i><br>
+    <b>Mã số sinh viên: </b> <i>12355</i><br>
+    <b>Họ và tên: </b> <i>Nguyễn Văn A</i>
+    </p>
+    <hr width="100%" size ="3px" color="blue" noshade>
+    <div align ="center">
+    <a href ="bt10-index.html">Trang chủ</a>
+    <a href ="bt10-content.html">Nội dung môn học </a>
+    <a href ="bt10-register.html">Đăng kí</a>
+    </div>
+    <h2 align ="center">ĐĂNG KÝ THAM GIA DIỄN ĐÀN</h2>
+    <form >
+    <table align ="center" bgcolor ="yellow" border ="1px" width="40%">
+        <tr>
+           <td><label for ="INPUT" >Tên đăng nhập:</label></td> 
+          
+           <td><input type ="text" name ="input" id="INPUT" size="30" required placeholder ="Nhập tên đăng nhập"autofocus=""></td> 
+           
+        </tr>
+        <tr>
+                <td><label for ="pass">Mật khẩu:</label></td>
+                <td><input type ="password"name ="pass" id="pass"size="30"  required></td>
+        </tr>
+        <tr>
+            <td><label for ="sex">Giới tính</label></td>
+                <td><input type ="radio" value="male" name="sex"id="sex" checked>Nam
+                <input type ="radio" value="female"  name="sex"id="sex">Nữ</td>
+        </tr>
+        <tr>
+            <td><label for ="birthday">Ngày sinh:</label></td>
+            <td><input type="date"  style="width:200px;" name ="birthday" id="birthday" required></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            
+                <td><input type ="email" name ="email" id ="email"size="30"  required ></td>
+        </tr>
+        <tr>
+            <td><label for="language">Ngôn ngữ lập trình yêu thích nhất</label></td>
+                <td><select style="width:237px;" name="language" id="language">
+                    <option value ="C++">C++</option>
+                    <option value="C#">C#</option>
+                    <option value ="PHP">PHP</option>
+                    <option value ="java">Java</option>
+                    <option value ="Python">Python</option>
+                </select></td>
+          
+        </tr>
+        <tr>
+            <td><label for="regulations" >Quy định khi tham gia diễn đàn</label></td>
+           
+                <td><textarea rows ="5" cols="40" name="regulation" id="regulations">Bài viết phải nghiêm túc, không chứa quảng cáo, không có nội dung phản cảm</textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">
+                   <img src="./Images/submit.jpg" alt ="Đăng kí" width="80px" height ="30px">
+                </button>
+                <button type="reset">
+                <img src="./Images/reset.jpg" alt ="reset" width="80px" height="30px">
+                </button>
+            </td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>
